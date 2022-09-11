@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sổ điểm và tính điểm trung bình</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.css">
+  </head>
+  <body>
+      <div class="container" >
+                <h1 class="heading_center" >Class Marksheet</h1>
+                <!--Tao form nhap diem sinh vien  -->
+          
+                <form id="student_list" name="input">
+                    <div class=" student_name" >
+                        <label class= "score_name" for="name">Họ tên</label>
+                         <input class="form_info" type="text" id='name' name='name'>
+                    </div>
+                    
+                    <div class=" student_name" >
+                        <label class="score_name" for="math">Điểm Toán</label>
+                        <input class="form_info" type="text" id='math' name='math'>
+                    </div>
+
+                    <div class=" student_name" >
+                    <label class="score_name" for="physical">Điểm Lý</label>
+                    <input class="form_info" type="text"  id='physical' name='physical'><br>
+                    </div>
+
+                    <div class=" student_name" >
+                    <label class="score_name" for="chemistry">Điểm Hóa</label>
+                    <input class="form_info" type="text" id='chemistry' name='chemistry'>
+                    </div>
+
+                </form>
+                <!-- Khi onclick vao inserttable thi se hien ham insertbale -->
+                <div class="Enter_bnt" >
+                <button id="add_table" type="button">Nhập</button>
+                <samp><button id="update_table" type="button" onclick="update_btn()" style="display: none;">Cập Nhật</button></samp>
+                </div>
+                
+              
+        
+                 <!-- Tao bang --> 
+               
+                <table id="myTable">                  
+                    <tr>
+                        <td style="width: 8.33%;" id="stt">Stt</td>
+                        <td style="width: 25%;" id="name">Họ tên</td>
+                        <td  style="width: 8.33%;"id="math" > Toán </td>
+                        <td  style="width: 8.33%;"id="physical">Lý</td>
+                        <td  style="width: 8.33%;"id="chemistry" >Hoá</td>
+                        <td  style="width: 16.66%;"id="Avg"> Điểm Trung Bình</td>
+                        <td  style="width: 8.33%;"id="Ev"> Xếp Loại</td>
+                        <td  style="width: 8.33%;"id="edit"> Sửa</td>
+                        <td  style="width: 8.33%;"id="delete"> Xoá</td>
+            
+                    </tr> 
+                      
+                </table>
+              
+        
+                <div class="learning_results";>
+                  <button id="Average" >Tính điểm trung bình</button>
+                  <button id="GoodStudent">Xác định học sinh giỏi</button>
+                  <button id="delete_row" type="button">Xoá Hàng</button>
+                </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

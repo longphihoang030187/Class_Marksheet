@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+  
+}
+.container{
+    width: 96%;
+    border: 1px solid red;
+    margin: auto;
+    text-align: center;
+
+}
+.heading_center{
+    padding: 3%;
+    color:royalblue;
+   
+}
+ #student_list{
+     text-align: right;
+     width: 62%;
+     transform: translateX(10%);
+ }
+ .score_name{
+     padding: 10px;
+     font-size: 18px;
+
+ }
+
+ .form_info{
+     padding: 5px;
+     margin: 10px;
+     width: 53%;
+     font-size: 18px;
+     text-align: center;
+ }
+
+/* bat dau phan ben duoi form */
+
+#myTable{
+    width: 98%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+    background-color: yellowgreen;
+    font-size: 18px;
+
+}
+
+/*CSS  buttom phan bang diem */
+
+.Enter_bnt{
+    text-align: center;
+}
+
+#update_table{
+    font-size: 16px;
+    padding: 10px 28px ;
+    color: white;
+    background-color: blue;
+    margin-top: 3%;
+}
+#add_table{
+    font-size: 16px;
+    padding: 10px 28px ;
+    color: white;
+    background-color: blue;
+    margin-top: 3%;
+
+
+}
+#delete_row{
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;
+  }
+
+/*CSS phan ket qua hoc tap cua sinh vien  */
+.learning_results{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#Average{
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+#GoodStudent{
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+} 

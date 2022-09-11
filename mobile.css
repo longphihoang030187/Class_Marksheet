@@ -1,0 +1,71 @@
+
+@media only screen and (max-width: 600px) {
+
+    body {
+        background-color: yellow;
+        }
+    #student_list{
+        text-align: right;
+        width: 70%;
+        transform: translateX(17%);
+    }
+    .score_name{
+        padding: 10px;
+        font-size: 20px;
+   
+    }
+   
+    .form_info{
+        padding: 6px;
+        margin: 10px;
+        width: 57%;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #update_table{
+        font-size: 16px;
+        padding: 10px 28px ;
+        color: white;
+        background-color: blue;
+        margin-top: 3%;
+
+    }
+    #add_table{
+        font-size: 16px;
+        padding: 10px 28px ;
+        color: white;
+        background-color: blue;
+        margin-top: 3%;
+    
+    }
+    #delete_row{
+        font-size: 16px;
+        padding: 10px 28px ;
+        color: white;
+        background-color: blue;
+        margin-top: 3%;
+
+    }
+
+     #Average{
+         width: 45%;
+        color: white;
+        background-color:blue;
+        padding: 10px;
+        font-size: 18px;
+        margin-bottom: 20px;
+
+    }
+    
+    #GoodStudent{
+        width: 45%;
+        font-size: 18px;
+        color: white;
+        background-color:blue;
+        padding: 10px;
+    } 
+
+
+
+} 
